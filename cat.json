@@ -4,7 +4,7 @@
         "cat_id": "01",
         "title": "Boots",
         "img": "https://i.ibb.co/jzwCxtm/cat5.jpg",
-        "any" : "",
+        "counter" : 0,
         "description" : "boots buttos batttos"
         
     },
@@ -13,7 +13,7 @@
         "cat_id": "02",
         "title": "Kiddos",
         "img": "https://i.ibb.co/Q69M8Lv/cat2.jpg",
-        "any" : "",
+        "counter" : 0,
         "description" : "kiddoss kiddos kussoss"
         
     },
@@ -22,7 +22,7 @@
         "cat_id": "03",
         "title": "Loona",
         "img": "https://i.ibb.co/Qpv6zd0/cat3.jpg",
-        "any" : "",
+        "counter" : 0,
         "description" : "looona luuuna leenaa"
        
     },

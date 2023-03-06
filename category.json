@@ -1,35 +1,43 @@
 [
     {
       "id": "01",
-      "name": "Boots"
+      "name": "Boots",
+      "counter" : 0
     },
     {
       "id": "02",
-      "name": "Kiddos"
+      "name": "Kiddos",
+      "counter" : 0
     },
     {
       "id": "03",
-      "name": "Loona"
+      "name": "Loona",
+      "counter" : 0
     },
     {
       "id": "04",
-      "name": "Chinni"
+      "name": "Chinni",
+      "counter" : 0
     },
     {
       "id": "05",
-      "name": "Tabby"
+      "name": "Tabby",
+      "counter" : 0
     },
     {
       "id": "06",
-      "name": "Tiger"
+      "name": "Tiger",
+      "counter" : 0
     },
     {
       "id": "07",
-      "name": "Tabby2"
+      "name": "Tabby2",
+      "counter" : 0
     },
     {
       "id": "08",
-      "name": "Rickey"
+      "name": "Rickey",
+      "counter" : 0
     }
     
   ]
