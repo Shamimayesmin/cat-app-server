@@ -33,6 +33,7 @@ async function run() {
 			res.send(categoryItem);
 			console.log(categoryItem);
 		});
+        
 
         // get single category by id
 		app.get("/category/:id", async (req, res) => {
@@ -42,11 +43,19 @@ async function run() {
 			res.send(result);
 		});
         // post new  cat
-        app.post("/category", async (req, res) => {
+        app.post("/cats", async (req, res) => {
 			const info = req.body;
 			const result = await addCatItem.insertOne(info);
             console.log(result);
 			res.send(result);
+		});
+        // get all cats
+		app.get("/cats", async (req, res) => {
+			const query = {};
+			const cursor = addCatItem.find(query);
+			const categoryItem = await cursor.toArray();
+			res.send(categoryItem);
+			console.log(categoryItem);
 		});
 
         // update a category
@@ -82,26 +91,6 @@ app.get("/", (req, res) => {
 	res.send("cat api is running");
 });
 
-// app.get("/category", (req, res) => {
-// 	res.send(categories);
-// });
-
-// app.get("/category/:id", (req, res) => {
-// 	const id = req.params.id;
-// 	const category_cat = catItem.filter((n) => n.cat_id === id);
-// 	res.send(category_cat);
-// });
-
-// app.get("/cats", (req, res) => {
-// 	res.send(catItem);
-// });
-
-// app.get("/cats/:id", (req, res) => {
-// 	const id = req.params.id;
-// 	console.log(id);
-// 	const selectedCourse = catItem.find((n) => n._id === id);
-// 	res.send(selectedCourse);
-// });
 
 app.listen(port, () => {
 	console.log("cat server running on port", port);
