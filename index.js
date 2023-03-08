@@ -9,8 +9,6 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
-const categories = require("./category.json");
-const catItem = require("./cat.json");
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.ui8slz3.mongodb.net/?retryWrites=true&w=majority`;
 console.log(uri);
