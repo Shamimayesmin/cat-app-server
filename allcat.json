@@ -1,6 +1,6 @@
 [
     {
-        "_id": "01",
+       
         "categoryId": "01",
         "categoryName": "Boots",
         "img": "https://i.ibb.co/jzwCxtm/cat5.jpg",
@@ -9,64 +9,69 @@
         
     },
     {
-        "_id": "02", 
-        "cat_id": "02",
-        "title": "Kiddos",
+        
+        "categoryId": "02",
+        "categoryName": "Kiddos",
         "img": "https://i.ibb.co/Q69M8Lv/cat2.jpg",
         "counter" : 0,
         "description" : "kiddoss kiddos kussoss"
         
     },
     {
-        "_id": "03",
-        "cat_id": "03",
-        "title": "Loona",
+       
+        "categoryId": "03",
+        "categoryName": "Loona",
         "img": "https://i.ibb.co/Qpv6zd0/cat3.jpg",
         "counter" : 0,
         "description" : "looona luuuna leenaa"
        
     },
     {
-        "_id": "04",
-        "cat_id": "04",
-        "title": "Chinni",
+        
+        "categoryId": "04",
+        "categoryName": "Chinni",
         "img": "https://i.ibb.co/jzwCxtm/cat5.jpg",
+        "counter" : 0,
         "any" : "",
         "description" : "chinni chunni chinkkki"
         
     },
     {
-        "_id": "05",
-        "cat_id": "05",
-        "title": "Tabby",
+       
+        "categoryId": "05",
+        "categoryName": "Tabby",
         "img": "https://i.ibb.co/HYCsrrB/cat6.jpg",
+        "counter" : 0,
         "any" : "",
         "description" : "tabuu tabby tabbbbu"
         
     },
     {
-        "_id": "06",
-        "cat_id": "06",
-        "title": "Tiger",
+       
+        "categoryId": "06",
+        "categoryName": "Tiger",
         "img": "https://i.ibb.co/L850Lxj/cat7.jpg",
+        "counter" : 0,
         "any" : "",
         "description" : "tiger tigggy tiggg"
        
     },
     {
-        "_id": "07",
-        "cat_id": "07",
-        "title": "Tabby2",
+       
+        "categoryId": "07",
+        "categoryName": "Tabby2",
         "img": "https://i.ibb.co/N9FrYDP/cat8.jpg",
+        "counter" : 0,
         "any" : "",
         "description" : "tabuu tabby tabbbbu"
        
     },
     {
-        "_id": "08",
-        "cat_id": "08",
-        "title": "Rickey",
+      
+        "categoryId": "08",
+        "categoryName": "Rickey",
         "img": "https://i.ibb.co/ChjsXqw/cat9.jpg",
+        "counter" : 0,
         "any" : "",
         "description" : "Rickey rickeuu richiii"
        
